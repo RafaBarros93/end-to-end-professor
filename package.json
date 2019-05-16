@@ -1,0 +1,16 @@
+{
+    "name": "test-appprova-end-to-end-professor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "cypress open",
+        "test": "cypress run"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^3.2.0"
+    }
+}
