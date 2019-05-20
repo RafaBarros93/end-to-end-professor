@@ -39,7 +39,7 @@ describe("Login", () => {
 });
 
 describe("Create Simulated", () => {
-    const number = Math.floor(Math.random() * (500 - 2 + 1) + 3);
+    const number = Math.floor(Math.random() * (2000 - 2 + 1) + 3);
 
     console.log(number);
 
@@ -50,6 +50,8 @@ describe("Create Simulated", () => {
 
     it("create new simulete", () => {
         cy.createSimulete(`TESTE QA AUTOMATIZAÇÃO ${number} `);
+
+        cy.saveAsDraft();
     });
 
     it("publish draft", () => {
@@ -58,5 +60,9 @@ describe("Create Simulated", () => {
 
     it("publish draft with error on date", () => {
         cy.publishDummyWithErrorOnDate("TESTE QA AUTOMATIZAÇÃO 01");
+    });
+
+    it("publish draft with validation error", () => {
+        cy.publishDummyWithError("TESTE QA AUTOMATIZAÇÃO 01");
     });
 });
