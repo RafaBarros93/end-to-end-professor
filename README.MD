@@ -3,30 +3,40 @@
 ## Ambiente de Desenvolvimento
 
 Para desenvolvimento deste desafio
-utilizei o framework cypress.js um framework para testes
+utilizei o framework cypress.js um framework para testes end to end
 
--   [Cypress](https://www.cypress.io/)
+-   [Cypress.js](https://www.cypress.io/)
 
-Para rodar o [Cypress](https://www.cypress.io/) e ncessario a ter instalado na maquina o [Node.js](https://nodejs.org/en/)
+Para rodar o [Cypress.js](https://www.cypress.io/) e necessário ter instalado na maquina o [Node.js](https://nodejs.org/en/)
 
-**1-Run project**
+**Acesse a pasta do arquivo**
 
 ```
+cd /Desafio-Técnico-QA-Engineer/test-appprova-end-to-end-professor
+
+```
+
+**Instale as dependências com o comando**
+
+```
+
+npm install
+
+
+```
+
+**Run project**
+
+```
+
 npm start
+
 ```
 
-**2-Run project in prompt**
+**Run project in prompt**
 
 ```
 
 npm test
-
-```
-
-# Authors
-
--   **Rafael Lopes Fonseca** \-[RafaBarros93](https://github.com/RafaBarros93/)
-
-```
 
 ```
