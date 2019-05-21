@@ -1,9 +1,3 @@
-/*!
- * @Rafael Lopes Fonseca
- * date 05/16/2019
- * Desafio Técnico - QA Engineer
- */
-
 describe("Login", () => {
     beforeEach(() => {
         cy.visit("/teachers/sign_in");

@@ -1,9 +1,3 @@
-/*!
- * @Rafael Lopes Fonseca
- * date 05/16/2019
- * Desafio Técnico - QA Engineer
- */
-
 Cypress.Commands.add("login", (login, password) => {
     if (login) {
         cy.get('input[name="teacher[email]"]', { timeout: 150000 }).type(login);

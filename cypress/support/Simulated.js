@@ -1,9 +1,3 @@
-/*!
- * @Rafael Lopes Fonseca
- * date 05/16/2019
- * Desafio Técnico - QA Engineer
- */
-
 Cypress.Commands.add("containsClick", (type, contains) => {
     cy.get(type)
         .contains(contains)
